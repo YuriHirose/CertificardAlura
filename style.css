@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(#390452, #200647);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  Background: whitesmoke;
+  color: #1C1C1C;
+  margin: 65px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #0E1D2F;
+  padding: 65px;
+}
+.cabeca {
+  display: flex;
+  justify-content: space-between
+}
+.perfil {
+  display: flex;
+}
+
+.titulo {
+  line-height: 24px;
+}
+
+.foto {
+  max-height: 150px;
+  border-radius: 400px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 10px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.al {
+  font-weight: 350;
+  font-size: 15px; 
+  line-height: 12px; 
+}
+
+.foto {
+  max-height: 150px;
+  border-radius:360;
+}
+
+.tema button {
+  align-self: fex-end;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 12px;
+}
+
+.projetos {
+  background: #e6e4f7;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.projTitle {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.listagem{
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projetos a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+
+
+
+.dark {
+    background: linear-gradient(#200647, #390452);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  background: #685182;
+  color: #1c1c1c;
+}
+
+.dark .tema button{
+  background: #1c1c1c;
+  color: whitesmoke;
+  border: 2px solid #f7f7f7;
+}
